@@ -120,7 +120,7 @@ When setting up a new device:
 
 ### Troubleshooting
 | Error                                    | Suggested Solution           | 
-| -----------------------------------------|:----------------------------:|
+| :-----------------------------------------:|:---------------------------- |
 | Sensors reading -1 or infinite values    | Check sensors for physical failure. If the device still reads an unexpected value replace the probe from the analog cable. Sensors reading other unexpected values	Recalibrate the sensor using a known solution. If still reading unexpected value, replace probe from the analog cable. |
 | No reported data    | It is normal to observe slight delays on reported data depending on the network environment the device is place. If the issue continues: 1. Check if battery is dead, if so replace battery. 2. Check connection quality, if failing see connection failure. If none of the above replace microcontroller or run electrical diagnostic tests.   |
 | Connection failure | In light of a connection failure, the blue LED on device is turned off. Plug in the device again and reset the network following steps 1-6 in Configuring Wi-Fi section.    |
